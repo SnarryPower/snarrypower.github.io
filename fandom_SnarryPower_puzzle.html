@@ -1,31 +1,14 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- 
-	<style>
-		body {
-		width: 99%;
-		background-color: #ffffff;
-		font-family: Trebuchet MS, Arial;
-		}
-
-		.midi {
-		width: 460px; 
-		height: 790px; 
-		overflow-x: hidden; 
-		overflow-y: scroll; 
-		-webkit-overflow-scrolling: touch;
-		padding-top: 0;
-		padding-right: 15px; 
-		text-align: justify; 
-		color: #000000; 
-		font-size: 12.96px; 
-		line-height: 16px; 
-		font: tahoma;
-			
-		}
-
-	</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="content/js/paper.js" type="text/javascript"></script>
+    <script type="text/paperscript" canvas="canvas">
+        var bob = new Raster('Bob');
+        bob.position = view.center;
+    </script>
 </head>
 <body>
-<span title="301386_full1 - online jigsaw puzzle - 48 pieces" style="display:inline-block;margin:.6em;width:160px"><a href="https://www.jigsawplanet.com/?rc=play&amp;pid=09296adc0949" style="display:block;text-decoration:none;position:relative;width:123px;margin:0 auto .4em auto"><img alt="preview" style="display:block;border:1px #000 solid;box-shadow:2px 2px 5px rgba(0,0,0,.2)" src="https://im.jigsawplanet.com/?rc=img&amp;pid=09296adc0949&amp;size=160"><span style="position:absolute;right:5px;bottom:4px"><span style="font:bold 16px Verdana,sans-serif;color:#fff;text-shadow:1px 1px 2px #000;vertical-align:middle">48 </span><img style="border:0;vertical-align:middle" src="https://www.jigsawplanet.com/img/preview/piece.png" alt="piece"></span></a><a style="display:block;text-align:center;overflow:hidden" href="https://www.jigsawplanet.com/?rc=play&amp;pid=09296adc0949">301386_full1</a></span>
-
-</body></html>
+    <canvas id="canvas" class="canvas" resize></canvas>
+    <img id="Bob" src="http://funkyimg.com/i/2K8MF.jpg" style="display: none;">
+</body>
+</html>
